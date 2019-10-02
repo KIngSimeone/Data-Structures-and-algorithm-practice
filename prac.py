@@ -22,3 +22,7 @@ print(l)
 
 g = set(data)
 print(g)
+best = 'cristianoronaldo'
+print(best[0:14:2])
+goat='leomessi'
+print(bool([6,7,15]>[6,8,11]))
