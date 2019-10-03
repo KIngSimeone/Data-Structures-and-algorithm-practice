@@ -45,3 +45,19 @@ player = {
 }
 for key,value in player.items():
     print("The first player is " + player['name']+" He plays for " + player['club'] + " He is " + str(player['age']))
+
+alpha = [1,2,3]
+beta = alpha
+beta += [4,5]
+beta = beta +[6,7]
+
+print(alpha)
+print(beta)
+print(beta)
+
+first = 'shit'
+second = first
+second += 's'
+print(first)
+print(second)
+print(first)
